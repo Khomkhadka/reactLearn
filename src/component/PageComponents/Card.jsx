@@ -7,7 +7,7 @@ const Card = ({tittle,description,image}) => {
 
   return (
     <div className='grid gap-2 shadow-md border border-gray-100'>
-        <img src={image} className='h-74 w-full object-cover' alt="" />
+        <img src={image} className='h-40 w-full object-cover' alt="" />
         <div className='p-4'>
             <h1 className='text-xl font-semibold capitalize'>
                 {
